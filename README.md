@@ -221,6 +221,13 @@ You can now use `bkit` with **OpenCode**. bkit provides an adapter that maps Ope
 ```
 3. Restart OpenCode to start using bkit workflows!
 
+#### Airgap Environment Support (OpenCode)
+
+The OpenCode adapter has **no external NPM dependencies**, meaning it can be fully utilized in an airgapped (offline) environment:
+1. Transfer the `bkit` repository folder to your airgapped machine via USB or local network.
+2. Add the absolute path to the local repository using the `file:///` protocol in your `opencode.json` as shown above.
+3. OpenCode will load the local plugin directly from the filesystem without attempting to download dependencies from the internet.
+
 ### Option 1: Marketplace Installation (Claude Code Recommended)
 
 The easiest way to install bkit is through the Claude Code marketplace.
