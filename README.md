@@ -204,9 +204,24 @@ Skill Evals connect directly to bkit's PDCA workflow:
 
 ## Quick Start
 
-> **Note**: bkit is designed for **Claude Code**. For Gemini CLI, see [bkit-gemini](https://github.com/popup-studio-ai/bkit-gemini).
+> **Note**: bkit is designed for **Claude Code** and **OpenCode**. For Gemini CLI, see [bkit-gemini](https://github.com/popup-studio-ai/bkit-gemini).
 
-### Option 1: Marketplace Installation (Recommended)
+### OpenCode Installation (New)
+
+You can now use `bkit` with **OpenCode**. bkit provides an adapter that maps OpenCode's plugin hooks into its existing PDCA workflows.
+
+1. Ensure the `bkit` repository is cloned locally.
+2. In your OpenCode configuration (`opencode.json` or global configuration), add the path to the `bkit` repository:
+
+```json
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["file:///path/to/bkit/repository"]
+}
+```
+3. Restart OpenCode to start using bkit workflows!
+
+### Option 1: Marketplace Installation (Claude Code Recommended)
 
 The easiest way to install bkit is through the Claude Code marketplace.
 
