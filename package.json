@@ -1,0 +1,11 @@
+{
+  "name": "bkit",
+  "version": "1.6.2",
+  "description": "Vibecoding Kit - PDCA methodology + CTO-Led Agent Teams + AI coding assistant mastery for AI-native development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "POPUP STUDIO PTE. LTD.",
+  "license": "Apache-2.0"
+}
